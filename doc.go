@@ -6,7 +6,7 @@
       "log"
       "net/http"
 
-      "github.com/unrolled/recovery"  // or "gopkg.in/unrolled/recovery.v1"
+      "github.com/unrolled/recovery"
   )
 
   var myPanicHandler = http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
