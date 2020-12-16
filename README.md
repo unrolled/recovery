@@ -1,4 +1,4 @@
-# Recovery [![GoDoc](https://godoc.org/github.com/unrolled/recovery?status.svg)](http://godoc.org/github.com/unrolled/recovery) ![Test](https://github.com/unrolled/recovery/workflows/Test/badge.svg)
+# Recovery [![GoDoc](https://godoc.org/github.com/unrolled/recovery?status.svg)](http://godoc.org/github.com/unrolled/recovery) [![Test](https://github.com/unrolled/recovery/workflows/Test/badge.svg)](https://github.com/unrolled/recovery/actions)
 
 Recovery is a HTTP middleware that catches any panics and serves a proper error response. It's a standard net/http [Handler](http://golang.org/pkg/net/http/#Handler), and can be used with many frameworks or directly with Go's net/http package.
 
